@@ -45,7 +45,7 @@ const kenny = new User({
     password: 'password'
 });
 
-kenny.manify(function(err, name) {
+kenny.manify(function(err, name){
     if (err) throw err;
     console.log('Twoje nowe imię to: ' + name);
 });
