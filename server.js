@@ -21,6 +21,7 @@ userSchema.methods.manify = function(next) {
     return next(null, this.name);
 };
 
+
 //pre-save method
 userSchema.pre('save', function(next) {
     //pobranie aktualnego czasu
